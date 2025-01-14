@@ -7,6 +7,8 @@
   # Use https://search.nixos.org/packages to find packages
   packages = [
      pkgs.go
+     pkgs.rustc
+     pkgs.algolia-cli
      pkgs.anchor
      pkgs.solana-cli
      pkgs.solana-validator
